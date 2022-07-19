@@ -16,4 +16,4 @@
 # That separate application would be given 'Rule' interface from this application
 # to create different implementation classes and storing those objects in database.
 
-# In memory DB h2 is used for testing 
+# In memory DB h2 is used for testing .

@@ -7,6 +7,15 @@ Inventory
  The reason for storing rule Objects in database is that they will be
  in hundreds and separate applications can be developed to simulate rules
  on a large number of Item's.
+
+ For the purpose of this homework assignment this approach is taken.
+ In normal circumstances we would use a facility for editing and updating
+ rules on UI for product engineering team.
+ Drools files also can be used to specify rules and stored externally
+ and pulled into evaluate them.
+
+ Solutions around this are:
+ Blaze business rules engine, drools, etc.
  
  Each rule implementaion will contain a Predicate to figure out if this
  rule can be applied to it.
